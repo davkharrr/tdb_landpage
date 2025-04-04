@@ -14,7 +14,7 @@ export default function AboutSection() {
                 height={192}
                 className="object-cover md:hidden"
               />
-              <div className="hidden md:block relative h-[400px]">
+              <div className=" md:block relative h-[400px]">
                 <Image src="/images/executive.jpg" alt="Executive" fill className="object-cover rounded-lg" />
               </div>
             </div>

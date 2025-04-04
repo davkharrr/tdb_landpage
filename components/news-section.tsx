@@ -94,7 +94,7 @@ export default function NewsSection() {
         <div className="md:col-span-4">
           <div className="bg-white rounded-lg overflow-hidden shadow-sm h-full">
             <div className="relative h-64">
-              <Image src="/images/apple.jpg" alt="Fed's Powell" fill className="object-cover" />
+              <Image src="/images/powell.jpg" alt="Fed's Powell" fill className="object-cover" />
             </div>
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-3">Fed's Powell says:</h3>

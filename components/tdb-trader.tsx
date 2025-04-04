@@ -41,22 +41,20 @@ export default function TdbTrader() {
           </div>
         </div>
 
-        {/* Desktop view */}
-        <div className="hidden md:flex md:flex-row md:items-center md:justify-between">
-          <div className= "md:items-center">
-            <h2 className="text-3xl font-bold mb-4">TDB Trader</h2>
-            <p className="text-blue-100 mb-6">
-              Дэлхийн зах зээлийг
-              <br />
-              гар дороо.
-            </p>
-            <button className="bg-white text-blue-900 px-6 py-2 rounded-md font-medium">APP татах</button>
-          </div>
-          <div>
-            {/* <Image src="/images/piggy-bank.png" alt="TDB Trader" width={300} height={200} className="mx-auto" /> */}
-          </div>
+              {/* Desktop view */}
+      <div className="hidden md:flex md:flex-row md:items-center md:justify-center">
+        <div className="text-center"> {/* Added this for centering text */}
+          <h2 className="text-3xl font-bold mb-4">TDB Trader</h2>
+          <p className="text-blue-100 mb-6">
+            Дэлхийн зах зээлийг
+            <br />
+            гар дороо.
+          </p>
+          <button className="bg-white text-blue-900 px-6 py-2 rounded-md font-medium">APP татах</button>
         </div>
       </div>
+
+            </div>
     </section>
   )
 }

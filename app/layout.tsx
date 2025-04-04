@@ -8,6 +8,8 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "TDBS - Modern Landing Page",
+  description: "A modern, fast-loading landing page built with Next.js and Tailwind CSS",
+    generator: 'v0.dev'
 }
 
 export default function RootLayout({
